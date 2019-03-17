@@ -7,9 +7,9 @@ function findMatching (collection, string) {
 }
 
 function fuzzyMatch(collection, string) {
-	let nameLength = name.length;
+	let nameLength = string.length;
 	return collection.filter(function (driver) {
-		return driver.slice(0, nameLength) === name;
+		return driver.slice(0, nameLength) === string;
   })
 }
 
