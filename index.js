@@ -1,7 +1,7 @@
 // Code your solution in this file
 
 function findMatching (collection, string) {
-  return collection
+  return collection.filter( function ())
 }
 
 function fuzzyMatch () {
