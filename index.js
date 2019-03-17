@@ -1,7 +1,6 @@
 // Code your solution in this file
 
-drivers = []
-function findMatching (drivers, "") {
+function findMatching (collection, "") {
   
 }
 
