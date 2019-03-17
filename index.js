@@ -6,7 +6,10 @@ function findMatching (collection, string) {
   })
 }
 
-function fuzzyMatch () {
+function fuzzyMatch (collection, string) {
+  return collection.filter( function () {
+    
+  })
   
 
 }
