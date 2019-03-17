@@ -6,12 +6,11 @@ function findMatching (collection, string) {
   })
 }
 
-function fuzzyMatch (collection, string) {
-  return collection.filter( function () {
-    
+function fuzzyMatch(drivers, name) {
+	let lengthOfName = name.length;
+	return drivers.filter(function(driverName) {
+		return driverName.slice(0,lengthOfName) === name;
   })
-  
-
 }
 
 function matchName(collection, string) {
